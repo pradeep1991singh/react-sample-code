@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drop down menus should render drop down menu 1`] = `
+<nav
+  className="navbar navbar-default"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <img
+          alt="logo"
+          className="App-logo"
+          src="test-file-stub"
+        />
+      </a>
+    </div>
+    <ul
+      className="nav navbar-nav"
+      role={null}
+    >
+      <li
+        className="dropdown"
+        style={undefined}
+      >
+        <a
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="dropdown-toggle"
+          href="#"
+          id="basic-nav-dropdown"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Tags
+           
+          <span
+            className="caret"
+          />
+        </a>
+        <ul
+          aria-labelledby="basic-nav-dropdown"
+          className="dropdown-menu"
+          role="menu"
+        >
+          <li
+            className=""
+            role="presentation"
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="menuitem"
+              tabIndex="-1"
+            >
+              <input
+                className="form-control"
+                id={undefined}
+                onChange={[Function]}
+                placeholder="Search..."
+                type="text"
+                value=""
+              />
+            </a>
+          </li>
+          <li
+            className="divider"
+            onKeyDown={[Function]}
+            role="separator"
+            style={undefined}
+          />
+        </ul>
+      </li>
+    </ul>
+    <div
+      className="navbar-form navbar-left"
+    >
+      <button
+        className="btn btn-default"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        CLEAR ALL FILTERS
+      </button>
+    </div>
+  </div>
+</nav>
+`;

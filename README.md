@@ -3,15 +3,17 @@ React Sample code examples
 
 # Installation
 
-```sh
-$ git clone https://github.com/pradeep1991singh/react-sample-code
-```  
+Get the source code
 
-```sh
-$ npm i 
-or 
-$ yarn install
-```
+### `git clone https://github.com/pradeep1991singh/react-sample-code`
+
+###  `npm i`
+
+Install dependency using npm.
+
+### $ yarn install
+
+Or install dependency using yarn.
 
 ## Available Scripts
 

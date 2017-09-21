@@ -31,7 +31,6 @@ class NavigationBar extends Component {
   }
 
   getAllMenuItems = async () => {
-    console.log('here', getDropDownItems());
     await getDropDownItems()
       .then(response => response.json())
       .then(

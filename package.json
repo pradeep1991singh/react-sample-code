@@ -14,6 +14,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.3.0",
     "expressjs": "^1.0.1",
+    "husky": "^0.14.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.1.0",
     "lint-staged": "^4.2.1",
@@ -31,14 +32,14 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "precommit": "lint-staged",
-    "prepush": "npm test"    
+    "prepush": "npm test"
   },
   "lint-staged": {
     "*.js": [
       "prettier --single-quote --no-semi --trailing-comma es5 --write \"{app,__{tests,mocks}__}/**/*.js\"",
       "git add"
     ]
-  },  
+  },
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/file-mock.js",
